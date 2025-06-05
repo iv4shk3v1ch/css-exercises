@@ -9,11 +9,20 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display:inline-flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 10px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: inline-flex;
+ 
+  
 }
 
 a {
@@ -22,4 +31,20 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 20px;
+
+}
+
+div{
+  display: inline-flex;
+}
+
+div .left-links{
+  align-items: center;
+  justify-items: left;
+}
+
+div .right-links{
+ justify-content: right; 
+ align-items: center;
 }
